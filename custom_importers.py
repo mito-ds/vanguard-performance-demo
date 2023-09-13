@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 def get_performance_data(username: str, password: str, year: int): 
     """
     Get Vangaurd fund performance data for a given year.
