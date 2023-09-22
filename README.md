@@ -14,8 +14,8 @@
    - Columns: `Month`
    - Values: `sum` of `MoM Return`
 7. Add conditional formatting
-   - < 0, highlight in red
-   - > 0, highlight in green
+   - <0, highlight in red
+   - \>0, highlight in green
 8. Generate Excel file
 9. Open Excel file and show formatting
 
