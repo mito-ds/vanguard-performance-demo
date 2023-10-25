@@ -7,9 +7,9 @@
 2. Use custom imports to import fund performance.
    - Use a fake username and password.
    - Use the year 2022
-4. Use `Vlookup` to add the `Fund Manager` to the `fund_info` dataframe
-5. Use the `MonthName` formula to extract the month from the date in `fund_info`
-6. Create a pivot tale
+4. Use `Vlookup` to add the `Fund Manager` from the `fund_info` dataframe into the `performance` dataframe
+5. Use the `MonthName` formula to extract the month from the date in `performance`
+6. Create a pivot tale based on the `performance` dataframe
    - Rows: `Fund`, `Fund Manager`
    - Columns: `Month`
    - Values: `sum` of `MoM Return`
